@@ -484,10 +484,29 @@ Chemical Engineering — NIT Rourkela
 
 ---
 
+## 🚀 Live Demo
+
+### Try the SteelPlant AI Command Center
+
+**[🔴 Launch Live Application](https://deepeshkumar81311-steelplant-ai-command-center-app-tue1zv.streamlit.app/)**
+
+Experience the complete interactive industrial analytics dashboard directly in your browser.
+
+---
+
 ## 🔗 Project Links
 
-**GitHub:**
-https://github.com/deepeshkumar81311/steelplant-ai-command-center
+| Resource                 | Link                                                                                                   |
+| ------------------------ | ------------------------------------------------------------------------------------------------------ |
+| 🚀 **Live Demo**         | [Open Streamlit App](https://deepeshkumar81311-steelplant-ai-command-center-app-tue1zv.streamlit.app/) |
+| 💻 **GitHub Repository** | [View Source Code](https://github.com/deepeshkumar81311/steelplant-ai-command-center)                  |
 
-**Live Demo:**
-*Add your Streamlit deployment link here after deployment.*
+---
+
+### ⚡ Quick Start
+
+**Live application:**
+https://deepeshkumar81311-steelplant-ai-command-center-app-tue1zv.streamlit.app/
+
+**Source code:**
+https://github.com/deepeshkumar81311/steelplant-ai-command-center
