@@ -1,0 +1,39 @@
+SAIL INTERVIEW — ADVANCED PROJECT CHEAT SHEET
+
+Q1. What is novel about your project?
+A: It is a decision-support loop, not only a dashboard: Monitor → Predict → Detect → Explain → Simulate → Recommend.
+
+Q2. Why energy intensity instead of raw energy?
+A: Production changes the absolute consumption. kWh/t normalizes energy against output and makes periods/units more comparable.
+
+Q3. Why Isolation Forest?
+A: It is unsupervised and useful when labelled examples of wastage/failure are unavailable. It flags unusual combinations of intensity and operating variables for engineering review.
+
+Q4. Why Random Forest?
+A: It is a strong tabular-data baseline and can capture nonlinear interactions without requiring heavy preprocessing.
+
+Q5. Why chronological split?
+A: Random shuffling can leak future patterns into training. A chronological split better represents real forecasting deployment.
+
+Q6. What is permutation importance?
+A: It measures how model performance changes when one feature is shuffled. It indicates predictive influence, not causal influence.
+
+Q7. How would you deploy this at a steel plant?
+A: Connect authorized historian/SCADA/ERP sources, establish data quality checks, retrain using plant-specific data, benchmark against current operating rules, validate alerts with domain engineers, and then deploy with monitoring.
+
+Q8. How do you detect gas wastage?
+A: First normalize gas consumption by production, then identify abnormal intensity after considering operating conditions. Flagged periods require engineering checks such as leakage, abnormal process operation, meter issues or equipment conditions.
+
+Q9. How does the what-if simulator work?
+A: It applies a user-selected percentage reduction to baseline energy consumption and converts the estimated reduction into indicative cost savings using an assumed energy price.
+
+Q10. Biggest limitation?
+A: Synthetic data cannot prove plant-level performance. Real deployment needs authorized data, process constraints, domain validation and monitored pilot testing.
+
+Q11. What did you personally build?
+A: Data generation/handling, feature engineering, KPI calculations, forecasting model, anomaly model, explainability layer, scenario simulator, recommendation logic and Streamlit interface.
+
+NEVER SAY:
+- “I used confidential SAIL data.”
+- “This model is production-ready.”
+- “The detected anomaly proves there was a gas leak.”
