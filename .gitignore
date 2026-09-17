@@ -4,3 +4,5 @@ __pycache__/
 .env
 .streamlit/
 .DS_Store
+CV_BULLETS.txt
+INTERVIEW_CHEATSHEET.txt

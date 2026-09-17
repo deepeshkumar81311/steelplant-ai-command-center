@@ -1,9 +1,0 @@
-STEELPLANT AI COMMAND CENTER | Python, Scikit-learn, Streamlit
-
-• Built an end-to-end industrial decision-support prototype combining plant-wise KPI analytics, energy/gas intensity benchmarking, forecasting, anomaly detection and scenario simulation.
-• Developed a Random Forest energy forecasting pipeline using production, equipment load, ambient conditions and lag/rolling features with chronological hold-out validation.
-• Implemented Isolation Forest anomaly screening and permutation-importance explainability to identify abnormal consumption patterns and predictive drivers.
-• Added a what-if efficiency simulator and automated engineering action queue to translate analytics into potential savings scenarios and investigation priorities.
-
-INTERVIEW:
-“I built this as a personal prototype inspired by SAIL’s industrial energy and gas problem statements. Since actual plant data is confidential, I used synthetic data and focused on building the full decision-support pipeline.”
