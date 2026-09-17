@@ -1,4 +1,4 @@
-# SteelPlant AI Command Center
+# 🏭 SteelPlant AI Command Center
 
 ### Industrial Energy & Gas Intelligence Platform
 
@@ -12,7 +12,7 @@ Rather than functioning as a conventional dashboard, the project combines **oper
 
 ---
 
-## Project Overview
+## 🚀 Project Overview
 
 Industrial plants generate large amounts of operational data, but identifying abnormal consumption and converting analytics into actionable decisions requires more than visualization.
 
@@ -32,7 +32,43 @@ The system enables users to:
 
 ---
 
-## Key Features
+## 📸 Project Screenshots
+
+### 🖥️ AI Command Center
+
+Add your main dashboard screenshot here:
+
+```markdown
+![AI Command Center Dashboard](assets/YOUR_DASHBOARD_FILENAME.png)
+```
+
+### 📊 Energy & Intensity Analytics
+
+```markdown
+![Energy Analytics](assets/YOUR_ANALYTICS_FILENAME.png)
+```
+
+### 🚨 Anomaly Radar
+
+```markdown
+![Anomaly Detection](assets/YOUR_ANOMALY_FILENAME.png)
+```
+
+### 🤖 AI / Explainability
+
+```markdown
+![AI Insights](assets/YOUR_AI_INSIGHTS_FILENAME.png)
+```
+
+### 🔄 System Workflow
+
+![System Workflow](assets/workflow.png)
+
+> **Tip:** Replace `YOUR_DASHBOARD_FILENAME.png`, `YOUR_ANALYTICS_FILENAME.png`, etc. with the exact filenames you placed inside `assets/`.
+
+---
+
+## ✨ Key Features
 
 ### 1. Control Room
 
@@ -55,6 +91,7 @@ Normalizes consumption against production to enable meaningful comparison betwee
 
 ```text
 Energy Intensity = Energy Consumption / Production
+
 Gas Intensity    = Gas Consumption / Production
 ```
 
@@ -151,7 +188,7 @@ The action queue is designed as a **decision-support layer**, not an automated p
 
 ---
 
-## System Architecture
+## 🏗️ System Architecture
 
 ```text
                     ┌─────────────────────┐
@@ -165,36 +202,36 @@ The action queue is designed as a **decision-support layer**, not an automated p
                     │ & Feature Engineering│
                     └──────────┬──────────┘
                                │
-             ┌─────────────────┼─────────────────┐
-             ▼                 ▼                 ▼
-      ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
-      │ KPI /       │   │ Forecasting │   │  Anomaly    │
-      │ Intensity   │   │ Random      │   │  Detection  │
-      │ Analytics   │   │ Forest      │   │ Isolation   │
-      └──────┬──────┘   └──────┬──────┘   │ Forest      │
-             │                 │            └──────┬──────┘
-             │                 ▼                   │
-             │        ┌─────────────────┐          │
-             │        │ Explainability  │          │
-             │        │ Permutation     │          │
-             │        │ Importance      │          │
-             │        └────────┬────────┘          │
-             │                 │                   │
-             └─────────────────┼───────────────────┘
-                               ▼
+               ┌───────────────┼────────────────┐
+               ▼               ▼                ▼
+        ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
+        │ KPI /       │ │ Forecasting │ │  Anomaly    │
+        │ Intensity   │ │ Random      │ │  Detection  │
+        │ Analytics   │ │ Forest      │ │ Isolation   │
+        └──────┬──────┘ └──────┬──────┘ │ Forest      │
+               │               │         └──────┬──────┘
+               │               ▼                │
+               │       ┌─────────────────┐      │
+               │       │ Explainability  │      │
+               │       │ Permutation     │      │
+               │       │ Importance      │      │
+               │       └────────┬────────┘      │
+               │                │               │
+               └────────────────┼───────────────┘
+                                ▼
                     ┌─────────────────────┐
                     │  What-If Simulator  │
                     └──────────┬──────────┘
                                ▼
                     ┌─────────────────────┐
-                    │ Engineering Action │
+                    │ Engineering Action  │
                     │       Queue         │
                     └─────────────────────┘
 ```
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 SteelPlant_AI_Command_Center/
@@ -205,26 +242,21 @@ SteelPlant_AI_Command_Center/
 ├── .gitignore
 │
 ├── data/
-│   └── synthetic_industrial_data.csv
-│
-├── models/
-│   └── ...
-│
-├── src/
-│   ├── data_processing.py
-│   ├── forecasting.py
-│   ├── anomaly_detection.py
-│   └── explainability.py
+│   └── synthetic_steelplant_data.csv
 │
 └── assets/
-    └── screenshots/
+    ├── workflow.png
+    ├── dashboard.png
+    ├── analytics.png
+    ├── anomaly-detection.png
+    └── ai-insights.png
 ```
 
-> The exact structure may vary depending on the current implementation.
+> The screenshot filenames above are examples. Keep only the filenames that actually exist in your `assets/` folder.
 
 ---
 
-## Dataset
+## 📊 Dataset
 
 The repository contains:
 
@@ -251,7 +283,7 @@ This dataset:
 
 ---
 
-## Machine Learning Pipeline
+## 🧠 Machine Learning Pipeline
 
 ### Forecasting
 
@@ -299,7 +331,7 @@ Operational Interpretation
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 | Technology   | Purpose                 |
 | ------------ | ----------------------- |
@@ -312,13 +344,13 @@ Operational Interpretation
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd SteelPlant_AI_Command_Center
+git clone https://github.com/deepeshkumar81311/steelplant-ai-command-center.git
+cd steelplant-ai-command-center
 ```
 
 ### 2. Create a virtual environment
@@ -358,7 +390,7 @@ The Streamlit application will open in your browser.
 
 ---
 
-## Application Modules
+## 📋 Application Modules
 
 | Module              | Method                 | Purpose                        |
 | ------------------- | ---------------------- | ------------------------------ |
@@ -372,7 +404,7 @@ The Streamlit application will open in your browser.
 
 ---
 
-## Design Goals
+## 🎯 Design Goals
 
 ### Operational Relevance
 
@@ -396,7 +428,7 @@ The final output should help identify areas requiring investigation instead of s
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
 Possible extensions include:
 
@@ -415,7 +447,7 @@ Possible extensions include:
 
 ---
 
-## Data & Usage Disclaimer
+## ⚠️ Data & Usage Disclaimer
 
 This project is a **portfolio and educational prototype**.
 
@@ -435,13 +467,13 @@ It is **not intended for direct control of industrial equipment or safety-critic
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Deepesh Kumar**
 
 Chemical Engineering — NIT Rourkela
 
-Interests:
+### Interests
 
 * Machine Learning
 * Artificial Intelligence
@@ -449,3 +481,13 @@ Interests:
 * Process Engineering
 * Energy Optimization
 * Data-Driven Decision Systems
+
+---
+
+## 🔗 Project Links
+
+**GitHub:**
+https://github.com/deepeshkumar81311/steelplant-ai-command-center
+
+**Live Demo:**
+*Add your Streamlit deployment link here after deployment.*
