@@ -465,45 +465,9 @@ The system demonstrates:
 
 It is **not intended for direct control of industrial equipment or safety-critical operations**.
 
----
 
-## 👨‍💻 Author
 
-**Deepesh Kumar**
 
-Chemical Engineering — NIT Rourkela
-
-### Interests
-
-* Machine Learning
-* Artificial Intelligence
-* Industrial Analytics
-* Process Engineering
-* Energy Optimization
-* Data-Driven Decision Systems
-
----
-
-## 🚀 Live Demo
-
-### Try the SteelPlant AI Command Center
-
-**[🔴 Launch Live Application](https://deepeshkumar81311-steelplant-ai-command-center-app-tue1zv.streamlit.app/)**
-
-Experience the complete interactive industrial analytics dashboard directly in your browser.
-
----
-
-## 🔗 Project Links
-
-| Resource                 | Link                                                                                                   |
-| ------------------------ | ------------------------------------------------------------------------------------------------------ |
-| 🚀 **Live Demo**         | [Open Streamlit App](https://deepeshkumar81311-steelplant-ai-command-center-app-tue1zv.streamlit.app/) |
-| 💻 **GitHub Repository** | [View Source Code](https://github.com/deepeshkumar81311/steelplant-ai-command-center)                  |
-
----
-
-### ⚡ Quick Start
 
 **Live application:**
 https://deepeshkumar81311-steelplant-ai-command-center-app-tue1zv.streamlit.app/
